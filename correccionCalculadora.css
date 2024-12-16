@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente para el texto */
+    text-align: center; /* Centra el contenido de texto */
+    margin: 0; /* Elimina los márgene */
+    background-color: #f5f5f5; /* Color de fondo de la página */
+  }
+  
+  #calculadora {
+    width: 220px; /* Define un ancho para la calculadora */
+    margin: 20px auto; /* Centra la calculadora horizontalmente */
+    border: 2px solid #000; /* Agrega un borde sólido negro */
+    padding: 10px; /* Espacio interno */
+    background-color: #ddd; /* Fondo gris claro */
+  }
+  
+  #pantalla {
+    width: 100%; /* Ancho total del contenedor */
+    height: 40px; /* Altura de la pantalla */
+    border: 1px solid #000; /* Borde negro */
+    background-color: #e6ffff; /* Color de fondo */
+    margin-bottom: 10px; /* Espacio entre la pantalla y el teclado */
+    text-align: right; /* Alinea el texto a la derecha */
+    line-height: 40px; /* Centra verticalmente el texto */
+    font-size: 20px; /* Tamaño de fuente grande */
+    padding-right: 5px; /* Espaciado a la derecha */
+    box-sizing: border-box; /* Incluye el borde en el ancho */
+  }
+  
+  #teclado div {
+    overflow: hidden; /* Ajusta pantalla y teclas */
+  }
+  
+  #teclado div div {
+    float: left; /* Posiciona las teclas de izquierda a derecha */
+    width: 25%; /* Ancho de las teclas */
+    height: 40px; /* Define la altura de cada tecla */
+    border: 1px solid #000; /* Borde negro para cada tecla */
+    box-sizing: border-box; /* El borde se incluye en el tamaño total */
+    background-color: #ccc; /* Fondo gris claro */
+    line-height: 40px; /* Centra el texto verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-weight: bold; /* Texto en negrita */
+  
+  }
+  
